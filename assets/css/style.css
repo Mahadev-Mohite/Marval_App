@@ -1,0 +1,44 @@
+
+/* Card styling with 3D effect */
+.card-img-top {
+  background-color: #fff; /* Card background color */
+  border: 1px solid #ddd; /* Card border */
+  border-radius: 10px; /* Rounded corners */
+  transition: transform 0.2s, box-shadow 0.2s; /* Add smooth transitions for transform and box-shadow */
+  transform: translate(0, 0); /* Initial state for transform */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a 3D effect */
+}
+
+.card-img-top:hover {
+  transform: translate(0, -5px); /* Move the card slightly up on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Increase box shadow on hover */
+}
+
+
+.navbar {
+  background-color: #007BFF; /* Navbar background color */
+}
+
+.navbar-brand, .nav-link {
+  color: #fff; /* Navbar text color */
+}
+
+.nav-link:hover {
+  color: #FFD700; /* Change text color on hover */
+}
+.btn {
+  background-color: #007BFF; /* Button background color */
+  color: #fff; /* Button text color */
+}
+
+/* .btn:hover {
+  background-color: #0056b3; Change button color on hover */
+/* } */
+.footer {
+  background-color: #f8f9fa; /* Footer background color */
+}
+
+.text-muted {
+  color: #666; /* Footer text color */
+}
+
